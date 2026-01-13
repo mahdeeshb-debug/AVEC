@@ -134,6 +134,7 @@ and the development of self-confidence. Since the launch of our project in 2022,
 have been committed to developing and strengthening this initiative, with the goal of
 ensuring equal and inclusive access to hip-hop dance for all.`,
 orgtyp:"Organization type : Non-Governemental Organization",
+news:"We do not use Meta platforms : Our official news is published exclusively on our website, in line with our commitment to digital responsibility and environmental respect.[Learn More]",
 },
 ar:{nav:["الرئيسية","من نحن","المشاريع","شركاؤنا","تواصل معنا","قصتنا"],
   support:"تبرع الآن",
@@ -179,6 +180,7 @@ ar:{nav:["الرئيسية","من نحن","المشاريع","شركاؤنا","�
   showLess: "عرض أقل",
   aboutTitle:"من نحن",
   btnv:"▾معلومات",
+  news:"نحن لا نستخدم منصات ميتا: تُنشر أخبارنا الرسمية حصريًا على موقعنا الإلكتروني، التزامًا منا بالمسؤولية الرقمية واحترام البيئة.",
   fbtnv:"▾معلومات",
   aboutText:`جمعية Avec Human Supporters هي جمعية غير ربحية، إنسانية، وقائمة على التضامن، ملتزمة بالدفاع عن حقوق الإنسان، وتعزيز القانون الدولي، ومكافحة جميع أشكال التمييز. نحن نؤمن بالمساواة بين الشعوب والأفراد، ونعمل على تعزيز التسامح والاحترام المتبادل والعدالة الاجتماعية لبناء مجتمع أكثر شمولية ودعماً.
 
@@ -345,6 +347,7 @@ Aujourd’hui, AVEC Human Supporters vise à développer davantage son travail a
   learnMore: "En savoir plus",
   showLess: "Voir moins",
   btnv:"Info▾",
+  news:"Nous n’utilisons pas les plateformes Meta : nos actualités officielles sont publiées exclusivement sur notre site web, conformément à notre engagement en faveur de la responsabilité numérique et du respect de l’environnement. [En savoir plus]",
   fbtnv:"Info▾",
   aboutTitle:"À propos de nous : ",
   aboutText:`Avec Human Supporters est une association à but non lucratif, humanitaire et solidaire, engagée dans la défense des droits humains, la promotion du droit international et la lutte contre toutes les formes de discrimination. Nous croyons en l’égalité entre les peuples et les individus, et nous œuvrons pour promouvoir la tolérance, le respect mutuel et la justice sociale afin de construire une société plus inclusive et solidaire.
@@ -468,7 +471,7 @@ Mobilisation de la société civile française pour soutenir des programmes édu
 \n
 Activités de sensibilisation interculturelle liées à Naplouse
 Initiatives d’échange culturel, de narration et de partage d’informations visant à connecter le public français avec les communautés palestiniennes.`,
-qtext:`L&#39;éducation populaire représente une approche d&#39;apprentissage ouverte à tous, en
+qtext:`L'éducation populaire représente une approche d'apprentissage ouverte à tous, en
 dehors des cadres formels et parfois contraignants de l’éducation traditionnelle. Elle
 favorise la participation active, l’émancipation personnelle et le développement d’un
 esprit critique.
