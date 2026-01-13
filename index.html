@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avec Human Supporters</title>
+<link rel="icon" type="image/png" href="Avec-HSA.jpg">
+<link rel="mask-icon" href="avec.png" color="#5bbad5">
+</head>
+<body>
+<div id="top"></div>
+<header id="site-header">
+<nav>
+  <div class="dlogo">
+    <a href="index.html" class="logo-link">
+      <div class="logo"></div>
+    <h1 class="avec"><strong>Avec Human <span>Supporters</span></strong></h1>
+    </a>
+  </div>
+  <ul>
+    <li><a href="index.html" class="nav-link" id="navHome"  data-action="home"></a></li>
+    <li><a href="projects.html" class="nav-link" id="navProjects" data-action="projects"></a></li>
+    <li><a href="#footer" class="nav-link" id="navContact" data-action="contact"></a></li>
+    <li class="dropdown" >
+       <button
+        class="dropdown-toggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+        id="btnDropDown"
+        style="box-shadow: 0 0 0 0; padding: 0%;"
+      >
+      </button>
+    <ul class="dropdown-menu">
+        <li><a href="about.html#aboutSection" class="nav-link" id="navAbout"data-action="about"></a></li>
+        <li><a href="about.html#ourpartners"class="nav-link" id="navOurPartners" data-action="partners"></a></li>
+        <li><a href="about.html#ourStory" class="nav-link" id="navOurStory"data-action="aourstory"></a></li>
+      </ul>
+    </li>
+  </ul>
+  <div class="nav-buttons">
+    <button class="darkbtn" onclick="toggleDark()">🌙</button>
+    <button class="lang selected" onclick="setLang('en', this)">EN</button>
+    <button class="lang" onclick="setLang('ar', this)">AR</button>
+    <button class="lang" onclick="setLang('fr', this)">FR</button>
+    <a href="support.html">
+    <button id="supportBtn"></button>
+    </a>
+  
+</nav>
+</div>
+  <div class="hero" id="hero">
+  <h1 id="heroTitle"></h1>
+  <h4 id="heroText"></h4>
+</div>
+<div class="news-ticker">
+  <a href="about.html#meta"><span><em>We do not use Meta platforms  : </em>   Our official news is published exclusively on our website, in line with our commitment to digital responsibility and environmental respect . [Learn More]</span>
+</a> 
+</div>
+</header>
+<main id="projects">
+  <section class="cards-grid">
+  <div class="card" onclick="this.classList.toggle('open')">
+    <img src="non-formal 4.JPG">
+    <div class="card-content"><h3 id="c1t"></h3><a href="projects.html#popularEducation"><p id="c1d" class="extra"></p></a></div>
+     
+  </div>
+  <div class="card" onclick="this.classList.toggle('open')">
+    <img src="human right 2.JPG">
+    <div class="card-content"><h3 id="c2t"></h3><a href="projects.html#humanRights"><p id="c2d" class="extra"></p></a>
+    </div>
+    
+  </div>
+  <div class="card" onclick="this.classList.toggle('open')">
+    <img src="med - trans.jpg">
+    <div class="card-content"><h3 id="c3t"></h3><a href="projects.html#transCulture"><p id="c3d" class="extra"></p></a>
+    </div>
+     </section>
+  </div>
+</main>
+<footer id="footer">
+<div class="footer-grid">
+  <div class="contact-info">
+    <h3 id="footerContactTitle" data-i18n="contact"></h3>
+    <p>📍<strong data-i18n="location">Our officce:</strong></p><p style="margin-left: 35px;"><a id="footerAddress" href="https://www.google.pl/maps/place/102+Rue+Saint-Jacques,+44200+Nantes,+France/@47.0945367,-1.8196219,51618m/data=!3m1!1e3!4m6!3m5!1s0x4805e937da58e9bd:0x744c5b487e7b6176!8m2!3d47.1959082!4d-1.5377667!16s%2Fg%2F11c2dcq30p?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D" target="_blank">
+      102 Rue Saint-Jacques 44200 Nantes - France </a></p>
+    <p>📧 <a id="footerEmail" data-i18n="email" href="mailto:avechsa@gmail.com"><strong>E-mail :</strong></p><p style="margin-left: 35px;">contact@avechumansupporters.org</a></p>
+    <p>📞 <a id="footerPhone"data-i18n="phone" href="tel:+33 0749749261"><strong>Phone :</strong></p><p style="margin-left: 35px;">+33 0749749261</a></p>
+    <p><img src="whatsapp.svg" alt="WhatsApp" width="15" height="15"><a href="https://wa.me/qr/4OYOXBNNRZX2J1" target="_blank" title="Chat on WhatsApp"><strong>Whatsapp :</strong></p>
+   <p style="margin-left: 35px;">+33 0749749261</p>
+</a></p>
+<img src="qr.jpeg"alt="whatsapp QR"width="90"height="90"style="margin:10px;"/>
+  </div>
+  <form id="contactForm"  >
+  <div>
+    <h3 id="orgTyp" style="text-align: center;"></h3><br>
+    <h4 id="footerMsgTitle" style="text-align: center;"></h4>
+    <input type="text" id="fNameInput" name="name"placeholder="">
+    <input type="email" id="fEmailInput" name="email" placeholder="">
+    <textarea id="fMsgInput" name="message" placeholder=""></textarea>
+    <button class="send" type="button" id="senButton" onclick="sendEmail()">Send </button>
+  </div>
+  </form>
+  <div class="fnav">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="nav-link" id="fHome"data-action="home"></a></li>
+        <li><a href="projects.html" class="nav-link" id="fProjects"data-action="projects"></a></li>
+        <li><a href="#contact" class="nav-link" id="fContact"data-action="contact"></a></li>
+        <li class="dropdown" >
+       <button
+        class="dropdown-toggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+        id="fbtnDropDown"
+        style="box-shadow: 0 0 0 0; padding: 0%;"
+      >
+      </button>
+    <ul class="dropdown-menu">
+        <li><a href="about.html#aboutSection" class="nav-link" id="fAbout"data-action="about"></a></li>
+        <li><a href="about.html#ourpartners"class="nav-link" id="fPartners" data-action="partners"></a></li>
+        <li><a href="about.html#ourStory" class="nav-link" id="fOurStory"data-action="aourstory"></a></li>
+      </ul>
+    </li>
+      </ul>
+    </nav>
+    <div class="dflogo">
+    <a href="index.html" class="logo-link" >
+      <div class="flogo"></div>
+    <h1 class="favec"><strong>Avec Human <span>Supporters</span></strong></h1>
+    </a>
+  </div>
+  </div>
+</div>
+<hr>
+<div class="Copyright">
+<div> Copyright © 2026 Avec Human Supporters </div> <div>Powerwd by Avec Human Supporters</div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js" defer></script>
+
+</body>
+</html>
