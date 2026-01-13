@@ -1,0 +1,2 @@
+Avec Human Supporters is a non-profit, humanitarian, and solidarity-based association committed to the defense of human rights, the promotion of international law, and the fight against all forms of discrimination.
+We believe in equality between peoples and individuals, and we work to promote tolerance, mutual respect, and social justice in order to build a more inclusive and supportive society.
