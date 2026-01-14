@@ -115,24 +115,11 @@ Mobilising French civil society to support educational and psychosocial programm
 \nCross-cultural Awareness Activities Related to Nablus
 Cultural exchange, storytelling, and information-sharing initiatives connecting French audiences with Palestinian communities.`,
 question:`Popular education at the heart of our association `,
-qtext:`Popular education is an approach that aims to make learning accessible to
-everyone, outside the formal frameworks of traditional education. It emphasizes
-active participation, empowerment, cooperation, and the development of critical
-thinking. It is often based on participatory methods such as workshops, discussions,
-and collective practices, and it addresses a wide audience, often in connection with
-social, cultural, or political issues.
-Within our association, we build strong connections between these principles and
-hip-hop dance. From its origins, hip-hop has always promoted self-expression, self-
-confidence, and accessibility, outside the rigid norms of classical or academic dance
-forms. This inclusive dimension makes hip-hop a powerful tool to respond to the
-limitations of traditional education systems, which can sometimes negatively impact
-self-confidence.
-
-By encouraging participants to step out of their comfort zones, express themselves
-freely through movement, and value their individuality, we support personal growth
-and the development of self-confidence. Since the launch of our project in 2022, we
-have been committed to developing and strengthening this initiative, with the goal of
-ensuring equal and inclusive access to hip-hop dance for all.`,
+qtext:`Popular education is an approach that aims to make learning accessible toeveryone, outside the formal frameworks of traditional education. It emphasizes active participation, empowerment, cooperation, and the development of critical
+thinking. It is often based on participatory methods such as workshops, discussions, and collective practices, and it addresses a wide audience, often in connection with
+social, cultural, or political issues. Within our association, we build strong connections between these principles and
+hip-hop dance. From its origins, hip-hop has always promoted self-expression, self-confidence, and accessibility, outside the rigid norms of classical or academic dance forms. This inclusive dimension makes hip-hop a powerful tool to respond to the limitations of traditional education systems, which can sometimes negatively impact self-confidence.
+By encouraging participants to step out of their comfort zones, express themselves freely through movement, and value their individuality, we support personal growth and the development of self-confidence. Since the launch of our project in 2022, we have been committed to developing and strengthening this initiative, with the goal of ensuring equal and inclusive access to hip-hop dance for all.`,
 orgtyp:"Organization type : Non-Governemental Organization",
 news:"We do not use Meta platforms : Our official news is published exclusively on our website, in line with our commitment to digital responsibility and environmental respect.[Learn More]",
 },
@@ -150,6 +137,12 @@ ar:{nav:["الرئيسية","من نحن","المشاريع","شركاؤنا","�
   button: "إرسال",
   orgtyp:"نوع المنظمة: منظمة غير حكومية",
   storytitle:"قصتنا:",
+  question:"التربية الشعبية هي قلب جمعيتنا",
+  qtext:`التربية الشعبية هي مقاربة تهدف إلى جعل التعلّم متاحًا للجميع، خارج الأطر الرسمية للتعليم التقليدي. وهي تقوم على تشجيع المشاركة الفعّالة، والتمكين، والتعاون، وتنمية التفكير النقدي. وغالبًا ما تعتمد على أساليب تشاركية مثل الورشات، والنقاشات، والممارسات الجماعية، وتوجَّه إلى جمهور واسع، غالبًا ما يكون ذلك في ارتباط مع قضايا اجتماعية أو ثقافية أو سياسية.
+
+داخل جمعيتنا، نعمل على بناء روابط قوية بين هذه المبادئ ورقص الهيب هوب. فمنذ نشأته، لطالما شجّع الهيب هوب على التعبير عن الذات، وتعزيز الثقة بالنفس، وإتاحة الوصول للجميع، بعيدًا عن المعايير الصارمة للرقص الكلاسيكي أو الأكاديمي. هذا البعد الشمولي يجعل من الهيب هوب أداة قوية للاستجابة لحدود أنظمة التعليم التقليدية، التي قد تؤثر أحيانًا سلبًا على الثقة بالنفس.
+
+من خلال تشجيع المشاركين على الخروج من منطقة الراحة الخاصة بهم، والتعبير بحرية من خلال الحركة، وتقدير فرادتهم الفردية، ندعم النمو الشخصي وتعزيز الثقة بالنفس. ومنذ إطلاق مشروعنا سنة 2022، نلتزم بتطوير هذه المبادرة وتعزيزها، بهدف ضمان وصول متكافئ وشامل إلى رقص الهيب هوب للجميع.`,
   storytext:`تأسست AVEC Human Supporters في فبراير 2013. منذ البداية، كان هدف الجمعية دعم التعليم والثقافة والقيم الإنسانية من خلال التعاون الدولي.
 
 وكانت أولى المبادرات الكبرى للجمعية هي منحة ARASICOD، الممولة من المجلس الإقليمي لباي دو لا لوار. وقد دعمت هذه المنحة مشروعًا تعليميًا استمر ثلاث سنوات ونُفذ في فلسطين بالتعاون مع جمعية Human Supporters. ركز المشروع على دعم الأنشطة التعليمية وبناء تعاون طويل الأمد وقوي بين الشركاء المحليين والدوليين.
