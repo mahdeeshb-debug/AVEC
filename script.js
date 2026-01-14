@@ -1,4 +1,4 @@
-let currentLang = "en";
+let currentLang = "fr";
 // DARK MODE
 function toggleDark(){document.body.classList.toggle("dark")}
 
