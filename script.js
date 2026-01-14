@@ -464,22 +464,9 @@ Mobilisation de la société civile française pour soutenir des programmes édu
 \n
 Activités de sensibilisation interculturelle liées à Naplouse
 Initiatives d’échange culturel, de narration et de partage d’informations visant à connecter le public français avec les communautés palestiniennes.`,
-qtext:`L'éducation populaire représente une approche d'apprentissage ouverte à tous, en
-dehors des cadres formels et parfois contraignants de l’éducation traditionnelle. Elle
-favorise la participation active, l’émancipation personnelle et le développement d’un
-esprit critique.
-Dans notre association, nous faisons le lien entre ces principes et la danse hip-hop.
-En effet, le hip-hop, dès ses origines, a toujours mis l’accent sur l’expression de soi,
-la confiance en soi et l’accessibilité, en dehors des normes strictes de la danse
-classique. Cette dimension inclusive permet de pallier les éventuelles carences de
-l’éducation traditionnelle, qui peut parfois freiner la confiance en soi.
-En mettant l’accent sur la sortie de la zone de confort, l’expression libre et la
-valorisation de chaque individu, nous permettons à chacun de développer sa
-confiance en soi et d’épanouir son potentiel personnel. Depuis le lancement de notre
-projet en 2022, nous œuvrons à développer et enrichir cette initiative, en
-garantissant un accès égalitaire à la danse hip-hop pour tous.
-Ainsi, notre association incarne pleinement les valeurs de l’éducation populaire à
-travers l’art et la culture.`,
+qtext:`L'éducation populaire représente une approche d'apprentissage Ouvert à toutes et à tous, en dehors des cadres formels et parfois contraignants de l’éducation traditionnelle. Elle favorise la participation active, l’émancipation personnelle et le développement d’un esprit critique. Dans notre association, nous faisons le lien entre ces principes et la danse hip-hop. En effet, le hip-hop, dès ses origines, a toujours mis l’accent sur l’expression de soi,
+la confiance en soi et l’accessibilité, en dehors des normes strictes de la danse classique. Cette dimension inclusive permet de pallier les éventuelles carences de l’éducation traditionnelle, qui peut parfois freiner la confiance en soi. En mettant l’accent sur la sortie de la zone de confort, l’expression libre et la valorisation de chaque individu, nous permettons à chacun de développer sa
+confiance en soi et d’épanouir son potentiel personnel. Depuis le lancement de notre projet en 2022, nous œuvrons à développer et enrichir cette initiative, en garantissant un accès égalitaire à la danse hip-hop pour tous. Ainsi, notre association incarne pleinement les valeurs de l’éducation populaire à travers l’art et la culture.`,
 },
 };
 
