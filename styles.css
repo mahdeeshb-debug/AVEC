@@ -194,27 +194,31 @@ button {
 .news-ticker {
   width: 100%;
   overflow: hidden;
-  background:rgba(104, 7, 7, 0.6);
+  background: rgba(104, 7, 7, 0.6);
   color: whitesmoke;
   padding: 8px 0;
-  white-space: nowrap;
-  border-radius:15px;
-  grid-area: news;
-  grid-row: 3;
+  border-radius: 15px;
+  text-align: center;  
   margin-left: 15px;
 }
 
 .news-ticker span {
-  display: inline-block;
-  padding-left: 100%;
+  display: inline-block;  
 }
+
+
 hr {
   margin-top:20px;
   margin-bottom: 10px;
 }
 @keyframes moveLeft {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+
 }
 .logo-link {
   display: flex;
@@ -251,6 +255,7 @@ html[dir="rtl"] .logo-link {
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-size: small;
 }
 .meta {
   max-height: 300px;   
@@ -331,10 +336,6 @@ html[dir="rtl"] .logo-link {
 }
 nav a:hover {
   color:#f4a261;
-}
-nav a.selected{
-  background-color: #f4a261;
-  color:#000;
 }
 @media (hover: hover) {
   .dropdown:hover .dropdown-menu {

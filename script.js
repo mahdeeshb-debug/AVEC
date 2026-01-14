@@ -121,7 +121,7 @@ social, cultural, or political issues. Within our association, we build strong c
 hip-hop dance. From its origins, hip-hop has always promoted self-expression, self-confidence, and accessibility, outside the rigid norms of classical or academic dance forms. This inclusive dimension makes hip-hop a powerful tool to respond to the limitations of traditional education systems, which can sometimes negatively impact self-confidence.
 By encouraging participants to step out of their comfort zones, express themselves freely through movement, and value their individuality, we support personal growth and the development of self-confidence. Since the launch of our project in 2022, we have been committed to developing and strengthening this initiative, with the goal of ensuring equal and inclusive access to hip-hop dance for all.`,
 orgtyp:"Organization type : Non-Governemental Organization",
-news:"We do not use Meta platforms : Our official news is published exclusively on our website, in line with our commitment to digital responsibility and environmental respect.[Learn More]",
+news:"⚠️We do not use Meta platforms .[Learn More]⚠️",
 },
 ar:{nav:["الرئيسية","من نحن","المشاريع","شركاؤنا","تواصل معنا","قصتنا"],
   support:"تبرع الآن",
@@ -340,7 +340,7 @@ Aujourd’hui, AVEC Human Supporters vise à développer davantage son travail a
   learnMore: "En savoir plus",
   showLess: "Voir moins",
   btnv:"Info▾",
-  news:"Nous n’utilisons pas les plateformes Meta : nos actualités officielles sont publiées exclusivement sur notre site web, conformément à notre engagement en faveur de la responsabilité numérique et du respect de l’environnement. [En savoir plus]",
+  news:"⚠️ Nous n’utilisons pas les plateformes Meta.[En savoir plus]⚠️",
   fbtnv:"Info▾",
   aboutTitle:"À propos de nous : ",
   aboutText:`Avec Human Supporters est une association à but non lucratif, humanitaire et solidaire, engagée dans la défense des droits humains, la promotion du droit international et la lutte contre toutes les formes de discrimination. Nous croyons en l’égalité entre les peuples et les individus, et nous œuvrons pour promouvoir la tolérance, le respect mutuel et la justice sociale afin de construire une société plus inclusive et solidaire.
@@ -572,7 +572,7 @@ footerPhone.textContent=d.phone; footerPhone.href=`tel:+33 0749749261`;
 updateMappedElements(l);
 
 }
-setLang("en",document.querySelector(".lang.selected"));
+setLang("fr",document.querySelector(".lang.selected"));
 window.addEventListener("scroll",activateLinkByScroll);
 function scrollTop(e) {
   e.preventDefault();
@@ -667,4 +667,24 @@ function sendEmail() {
       submitBtn.disabled = false;
     });
 }
+const dropdownButton = document.getElementById('btnDropDown');
+const dropdownMenu = document.querySelector('.dropdown-menu');
+
+dropdownButton.addEventListener('click', function(e) {
+  e.preventDefault(); // prevent button default
+
+  // Toggle visibility
+  if (dropdownMenu.style.display === 'block') {
+    dropdownMenu.style.display = 'none';
+  } else {
+    dropdownMenu.style.display = 'block';
+  }
+});
+
+// Optional: click outside to close
+document.addEventListener('click', function(e) {
+  if (!dropdownButton.contains(e.target) && !dropdownMenu.contains(e.target)) {
+    dropdownMenu.style.display = 'none';
+  }
+});
 
