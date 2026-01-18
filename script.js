@@ -5,7 +5,7 @@ function toggleDark(){document.body.classList.toggle("dark")}
 //translation
 const t={
 en:{nav:["Home","About Us","Projects","Our Partners","Contact","Our Story"],
-  support:"Donate Now ✨",
+  support:"Donate Now",
   heroT:"Avec Human Supporters",
   heroD:"We connect volunteers with meaningful projects.",
   cards:[["Popular Education & Non Formal Education ","Popular education is an approach that aims to make learning accessible to everyone, outside the formal frameworks of traditional education. It emphasizes active participation, empowerment, cooperation, and critical development. It often relies on participatory methods, workshops, and debates, and it targets a wide audience, often connected to social, cultural, or political issues."],
@@ -22,6 +22,8 @@ en:{nav:["Home","About Us","Projects","Our Partners","Contact","Our Story"],
   footerEmail:"avechsa@gmail.com",
   footerPhone:"+33 0749749261",
   storytitle:"Our Story:",
+  herotitlep:"Projects",
+  herotitlea:"About Us",
   storytext:`AVEC Human Supporters was established in February 2013. From the beginning, the association aimed to support education, culture, and human values through international cooperation.
 
 Its first major action was the ARASICOD grant, funded by the Regional Council of Pays de la Loire. This grant supported a three-year education project implemented in Palestine, in cooperation with the Human Supporters Association. The project focused on supporting educational activities and building strong, long-term cooperation between local and international partners.
@@ -121,10 +123,11 @@ social, cultural, or political issues. Within our association, we build strong c
 hip-hop dance. From its origins, hip-hop has always promoted self-expression, self-confidence, and accessibility, outside the rigid norms of classical or academic dance forms. This inclusive dimension makes hip-hop a powerful tool to respond to the limitations of traditional education systems, which can sometimes negatively impact self-confidence.
 By encouraging participants to step out of their comfort zones, express themselves freely through movement, and value their individuality, we support personal growth and the development of self-confidence. Since the launch of our project in 2022, we have been committed to developing and strengthening this initiative, with the goal of ensuring equal and inclusive access to hip-hop dance for all.`,
 orgtyp:"Organization type : Non-Governemental Organization",
-news:"⚠️We do not use Meta platforms .[Learn More]⚠️",
+news:"We do not use Meta platforms .[Learn More]",
 },
 ar:{nav:["الرئيسية","من نحن","المشاريع","شركاؤنا","تواصل معنا","قصتنا"],
   support:"تبرع الآن",
+  herotitlea:"من نحن",
   heroT:"أيدٍ متعاونة، عالم أفضل",
   heroD:"نربط المتطوعين بمشاريع تصنع فرقًا حقيقيًا.",
   cards:[["التربية الشعبية والتعليم","التربية الشعبية هي نهج يهدف إلى جعل التعلم متاحًا للجميع، خارج الأطر الرسمية للتعليم التقليدي. وهو يركز على المشاركة الفعّالة، وتمكين الأفراد، والتعاون، والتفكير النقدي. وغالبًا ما يعتمد على أساليب تشاركية، وورش عمل، ونقاشات، ويستهدف جمهورًا واسعًا، غالبًا مرتبطًا بالقضايا الاجتماعية أو الثقافية أو السياسية"],
@@ -244,6 +247,7 @@ metaText:`لماذا لا نستخدم منصات Meta
 
 نشر أقل، ولكن بمعنى. التواصل بمسؤولية ووعي.`,
 hrsjtitle:"حقوق الإنسان والعدالة الاجتماعية\n",
+herotitlep:"المشاريع",
 hrsjtext:`تشمل هذه الفئة جميع الأنشطة التي تهدف إلى تعزيز المساواة والشمولية والكرامة وحماية الفئات الضعيفة، مع زيادة الوعي بقضايا حقوق الإنسان والعدالة الاجتماعية.
 \n
 التوعية والتعليم والتحسيس في فرنسا
@@ -300,6 +304,8 @@ tctext:`يشمل هذا المجال جميع المبادرات التي تهد
 },
 fr:{nav:["Accueil","À propos","Projets","Partenaires","Contact","Notre Histoire"],
   support:"Faire un don",
+  herotitlep:"Projets",
+  herotitlea:"À propos",
   heroT:"Avec Human Supporters",
   heroD:"Des Mains Solidaires, Un Monde Meilleur, Nous connectons les bénévoles à des projets significatifs.",
   cards:[[" Éducation populaire et éducation non formelle ","L’éducation populaire, c’est une approche qui vise à rendre l’apprentissage accessible à tous, en dehors des cadres formels de l’éducation traditionnelle. Elle met l’accent sur la participation active, l’émancipation, la coopération et le développement critique. Elle s’appuie souvent sur des méthodes participatives, des ateliers, des débats, et elle s’adresse à un large public, souvent en lien avec des enjeux sociaux, culturels ou politiques"],
@@ -340,7 +346,7 @@ Aujourd’hui, AVEC Human Supporters vise à développer davantage son travail a
   learnMore: "En savoir plus",
   showLess: "Voir moins",
   btnv:"Info▾",
-  news:"⚠️ Nous n’utilisons pas les plateformes Meta.[En savoir plus]⚠️",
+  news:" Nous n’utilisons pas les plateformes Meta.[En savoir plus]",
   fbtnv:"Info▾",
   aboutTitle:"À propos de nous : ",
   aboutText:`Avec Human Supporters est une association à but non lucratif, humanitaire et solidaire, engagée dans la défense des droits humains, la promotion du droit international et la lutte contre toutes les formes de discrimination. Nous croyons en l’égalité entre les peuples et les individus, et nous œuvrons pour promouvoir la tolérance, le respect mutuel et la justice sociale afin de construire une société plus inclusive et solidaire.
@@ -487,6 +493,10 @@ const aboutusText = document.getElementById("aboutusText");
 if (aboutusText) aboutusText.innerText = d.aboutText;
 const news = document.getElementById("news");
 if (news) news.innerText = d.news;
+const heroTitleP = document.getElementById("heroTitleP");
+if (heroTitleP) heroTitleP.innerText = d.herotitlep;
+const heroTitleA = document.getElementById("heroTitleA");
+if (heroTitleA) heroTitleA.innerText = d.herotitlea;
 const fName = document.getElementById("fNameInput");
 if (fName) fName.placeholder = d.name;
 const btnDropDown = document.getElementById("btnDropDown");
@@ -547,6 +557,7 @@ setTimeout(()=>{
   heroText.textContent=d.heroD;
   hero.classList.remove("fade");
 },300);
+
 // NAV
 [navHome,navAbout,navProjects,navOurPartners,navContact,navOurStory].forEach((e,i)=>e.textContent=d.nav[i]);
 [fHome,fAbout,fProjects,fPartners,fContact,fOurStory].forEach((e,i)=>e.textContent=d.nav[i]);
@@ -624,23 +635,7 @@ document.querySelectorAll(".lang").forEach(btn => {
     translatePage(lang);
   });
 });
-const toggle = document.querySelector(".dropdown-toggle");
-const menu = document.querySelector(".dropdown-menu");
 
-toggle.addEventListener("click", () => {
-  const expanded = toggle.getAttribute("aria-expanded") === "true";
-  toggle.setAttribute("aria-expanded", !expanded);
-  menu.style.display = expanded ? "none" : "block";
-});
-
-/* close when clicking outside */
-document.addEventListener("click", (e) => {
-  if (!toggle.contains(e.target) && !menu.contains(e.target)) {
-    toggle.setAttribute("aria-expanded", "false");
-    menu.style.display = "none";
-  }
-});
-// ================= EMAILJS (FIXED – NOTHING ELSE TOUCHED) =================
 // Initialize EmailJS
 emailjs.init("nxkp4aPmtJOOqae__");
 
@@ -667,24 +662,22 @@ function sendEmail() {
       submitBtn.disabled = false;
     });
 }
-const dropdownButton = document.getElementById('btnDropDown');
-const dropdownMenu = document.querySelector('.dropdown-menu');
+function toggleDropdown(button) {
+    const menu = button.nextElementSibling;
+    const isOpen = menu.classList.toggle("show");
 
-dropdownButton.addEventListener('click', function(e) {
-  e.preventDefault(); // prevent button default
-
-  // Toggle visibility
-  if (dropdownMenu.style.display === 'block') {
-    dropdownMenu.style.display = 'none';
-  } else {
-    dropdownMenu.style.display = 'block';
+    button.setAttribute("aria-expanded", isOpen);
   }
-});
 
-// Optional: click outside to close
-document.addEventListener('click', function(e) {
-  if (!dropdownButton.contains(e.target) && !dropdownMenu.contains(e.target)) {
-    dropdownMenu.style.display = 'none';
-  }
-});
+  // Close when clicking outside
+  document.addEventListener("click", function (e) {
+    const dropdown = document.querySelector(".dropdown");
+    if (!dropdown.contains(e.target)) {
+      const menu = dropdown.querySelector(".dropdown-menu");
+      const button = dropdown.querySelector(".dropdown-toggle");
 
+      menu.classList.remove("show");
+      button.setAttribute("aria-expanded", "false");
+    }
+  });
+  

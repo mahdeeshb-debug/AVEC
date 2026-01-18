@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+<link rel="icon" type="image/png" href="Avec-HSA.jpg">
+<link rel="mask-icon" href="avec.png" color="#5bbad5">
+</head>
+<body>
+<header id="site-header" style="background-color: whitesmoke;">
+<nav>
+  <div class="dlogo">
+    <a href="index.html" class="logo-link">
+      <div class="logo"></div>
+    <h1 class="avec"><strong>Avec Human <span>Supporters</span></strong></h1>
+    </a>
+  </div>
+  <ul style="padding-right:50px;">
+    <li><a href="index.html" style=" font-size: 1.6rem; 
+  font-weight: bold;"class="nav-link" id="navHome"  data-action="home"></a></li>
+    <li><a href="projects.html" style=" font-size: 1.6rem; 
+  font-weight: bold;" class="nav-link" id="navProjects" data-action="projects"></a></li>
+    <li><a href="contact.html" style=" font-size: 1.6rem; 
+  font-weight: bold;"class="nav-link" id="navContact" data-action="contact"></a></li>
+    <li class="dropdown" >
+       <button
+        class="dropdown-toggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+         onclick="toggleDropdown(this)"
+        style="box-shadow: 0 0 0 0; padding: 0%;"
+      > <a><span id="btnDropDown"style="font-size: 1.6rem ;font-weight: bold;"></span></a>
+      </button>
+    <ul class="dropdown-menu">
+        <li><a href="about.html#aboutSection" style=" font-size: 1.1rem; 
+  font-weight: bold;"class="nav-link" id="navAbout"data-action="about"></a></li>
+        <li><a href="about.html#ourpartners"style=" font-size: 1.1rem; 
+  font-weight: bold;"class="nav-link" id="navOurPartners" data-action="partners"></a></li>
+        <li><a href="about.html#ourStory" style=" font-size: 1.1rem; 
+  font-weight: bold;"class="nav-link" id="navOurStory"data-action="aourstory"></a></li>
+      </ul>
+    </li>
+  </ul>
+  </nav>
+</div>
+  <div class="hero" id="hero">
+  <h1 id="heroTitle"></h1>
+</div>
+<div><h1 id="heroTitleC"style="text-align:center">Contact</h1></div>
+</header>
+<main style="display: grid;place-items: center;min-height: 100vh;">
+<div style="max-width:50vw;height:auto;">
+  <form id="contactForm" >
+  <div>
+    <h3 id="orgTyp" style="text-align: center;display:flex;flex-direction: column;justify-content: center;"></h3><br>
+    <h4 id="footerMsgTitle" style="text-align: center;"></h4>
+    <input type="text" id="fNameInput" name="name"placeholder="">
+    <input type="email" id="fEmailInput" name="email" placeholder="">
+    <textarea id="fMsgInput" name="message" placeholder=""></textarea>
+    <button class="send" type="button" id="senButton" onclick="sendEmail()">Send </button>
+  </div>
+  </form>
+ <div class="contact-info" style="text-align: center;">
+    <h3 id="footerContactTitle" data-i18n="contact"></h3>
+    <p>📍<strong data-i18n="location">Our officce:</strong></p><p><a id="footerAddress" href="https://www.google.pl/maps/place/102+Rue+Saint-Jacques,+44200+Nantes,+France/@47.0945367,-1.8196219,51618m/data=!3m1!1e3!4m6!3m5!1s0x4805e937da58e9bd:0x744c5b487e7b6176!8m2!3d47.1959082!4d-1.5377667!16s%2Fg%2F11c2dcq30p?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D" target="_blank">
+      102 Rue Saint-Jacques 44200 Nantes - France </a></p>
+    <p>📧 <a id="footerEmail" data-i18n="email" href="mailto:avechsa@gmail.com"><strong>E-mail :</strong></p><p>avechsa@gmail.com</a></p>
+    <p>📞 <a id="footerPhone"data-i18n="phone" href="tel:+33 0749749261"><strong>Phone :</strong></p><p>+33 0749749261</a></p>
+    <p><img src="whatsapp.svg" alt="WhatsApp" width="15" height="15"><a href="https://wa.me/qr/4OYOXBNNRZX2J1" target="_blank" title="Chat on WhatsApp"><strong>Whatsapp :</strong></p>
+   <p>+33 0749749261</p>
+</a></p>
+<img src="qr.jpeg"alt="whatsapp QR"width="90"height="90"style="margin:10px;"/>
+  </div>
+  </div>
+</main>
+<footer id="footer">
+<div class="footer-grid">
+  <div class="fnav">
+    <nav>
+      <ul>
+        <li><a href="index.html" style=" font-size: 1.3rem; 
+  font-weight: bold;"class="nav-link" id="fHome"data-action="home"></a></li>
+        <li><a href="projects.html" style=" font-size: 1.3rem; 
+  font-weight: bold;"class="nav-link" id="fProjects"data-action="projects"></a></li>
+        <li><a href="contact.html" style=" font-size: 1.3rem; 
+  font-weight: bold;"class="nav-link" id="fContact"data-action="contact"></a></li>
+        <li class="dropdown" >
+       <button
+        class="dropdown-toggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+        onclick="toggleDropdown(this)"
+        style="box-shadow: 0 0 0 0; padding: 0%;"
+      ><a><span id="fbtnDropDown"  style=" font-size: 1.3rem; 
+  font-weight: bold;"></span></a>
+      </button>
+    <ul class="dropdown-menu">
+        <li><a href="about.html#aboutSection" style=" font-size: 1.0rem; 
+  font-weight: bold;"class="nav-link" id="fAbout"data-action="about"></a></li>
+        <li><a href="about.html#ourpartners"style=" font-size: 1.0rem; 
+  font-weight: bold;"class="nav-link" id="fPartners" data-action="partners"></a></li>
+        <li><a href="about.html#ourStory" style=" font-size: 1.0rem; 
+  font-weight: bold;"class="nav-link" id="fOurStory"data-action="aourstory"></a></li>
+      </ul>
+    </li>
+      </ul>
+    </nav>
+    <div class="dflogo">
+    <a href="index.html" class="logo-link" >
+      <div class="flogo"></div>
+    </a>
+  </div>
+  <p style="font-size: small;text-align: center;margin:10px">Avec Human Supporters PDLL<br>
+Siège social: CEMEA PDLL 102 Rue Saint-Jacques 44200 Nantes<br>
+Siret: 791 991 268 00016 <a href="https://avechumansupporters.org/"> https://avechumansupporters.org/</p></a>
+  </div>
+</div>
+<hr>
+<div class="Copyright">
+<div> Copyright © 2026 Avec Human Supporters </div> <div>Powerwd by Avec Human Supporters</div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js" defer></script>
+
+</body>
+</html>

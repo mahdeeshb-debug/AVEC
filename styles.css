@@ -17,15 +17,13 @@ body.dark{
 *{box-sizing:border-box;margin:0;padding:0;font-family:Segoe UI,sans-serif;transition:.3s}
 body{background:var(--bg);color:var(--text);scroll-behavior:smooth;}
 header{
-  background:url("background.jpg") center/cover;
+
   border-bottom-left-radius:100px;
   opacity:.9;
   padding:20px;
-  min-height:100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
   position:relative;
-  box-shadow: 0 0 8px 0 rgb(40, 40, 40);
    grid-template-areas:
     "nav"
     "hero"
@@ -53,7 +51,6 @@ html {
 }
 
 .flogo {
-  box-shadow:0 0 40px 0 rgb(0, 0, 0);
   width:60px;
   height:60px;
   background-image: url('Avec-HSA.jpg');
@@ -65,7 +62,7 @@ html {
   transition: transform 0.3s ease;
 }
 .logo {
-  box-shadow:0 0 40px 0 rgb(0, 0, 0);
+ 
   width:60px;
   height:60px;
   background-image: url('Avec-HSA.jpg');
@@ -84,7 +81,7 @@ button{padding:8px 14px;border:none;border-radius:20px;cursor:pointer;font-weigh
 .lang.selected{border:2px solid var(--main); background-color: #f4a261;color:#cfe6de}
 .lang{background:rgba(230, 230, 230, 0.8);color:#333;}
 .darkbtn{background:rgba(230, 230, 230, 0.4);color:#333;}
-#supportBtn{background:rgba(230, 230, 230, 0.9);color:#333;box-shadow:0 0 40px 0 rgb(40, 40, 40);}
+#supportBtn{background:rgba(230, 230, 230, 0.9);color:#333;}
 button:hover,.card:hover{transform:scale(1.02)}
 .hero{
   color:#0e0d0d;
@@ -126,14 +123,12 @@ overflow: visible;}
 .extra.expanded {
   max-height: 1000px;
 }
-footer{ background:var(--card);padding:10px;border-top-left-radius:40px;box-shadow:0 0 5px 0 rgb(0,0,0);}
-.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px;}
+footer{ background:var(--card);padding:10px;border-top-left-radius:40px;}
+.footer-grid{align-items: center;}
 input,textarea{width:100%;border-radius:10px;padding:10px;border:1px solid var(--border);margin-bottom:10px;transition:border-color 0.3s,box-shadow 0.3s;}
 input:focus,textarea:focus{border-color:var(--main);box-shadow:0 0 10px rgba(76, 175, 145,0.5);}
-input{height:40px;
-  box-shadow:0 0 10px 0 rgb(40, 40, 40);}
-textarea{height:120px;
-  box-shadow:0 0 15px 0 rgb(40, 40, 40);}
+input{height:40px;}
+textarea{height:120px;}
 .send{background:var(--main);color:#fff;width:100%;padding:10px;transition:transform 0.2s;}
 .send:hover{transform:scale(1.05);}
 footer nav ul{list-style:none;display:flex;}
@@ -173,9 +168,6 @@ footer nav a{color:var(--text);text-decoration:none;font-weight:500;transition:c
   margin-left:45px;
   margin-top:45px;
 }
-button {
-  box-shadow:0 0 20px 0 rgb(40, 40, 40);
-}
 .dflogo {
   align-items: center;
   display: flex;
@@ -194,7 +186,7 @@ button {
 .news-ticker {
   width: 100%;
   overflow: hidden;
-  background: rgba(104, 7, 7, 0.6);
+  background: rgba(7, 104, 7, 0.6);
   color: whitesmoke;
   padding: 8px 0;
   border-radius: 15px;
@@ -255,7 +247,7 @@ html[dir="rtl"] .logo-link {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: small;
+  font-size: x-small;
 }
 .meta {
   max-height: 300px;   
@@ -337,8 +329,14 @@ html[dir="rtl"] .logo-link {
 nav a:hover {
   color:#f4a261;
 }
-@media (hover: hover) {
+@media (hover: hover) and (pointer:fine){
   .dropdown:hover .dropdown-menu {
     display: block;
   }
+}
+.dropdown.open .dropdown-menu {
+  display: block;
+}
+.dropdown-menu.show {
+  display: block;
 }
