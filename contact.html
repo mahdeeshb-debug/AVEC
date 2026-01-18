@@ -17,7 +17,7 @@
     <h1 class="avec"><strong>Avec Human <span>Supporters</span></strong></h1>
     </a>
   </div>
-  <ul style="padding-right:50px;">
+  <ul>
     <li><a href="index.html" style=" font-size: 1.6rem; 
   font-weight: bold;"class="nav-link" id="navHome"  data-action="home"></a></li>
     <li><a href="projects.html" style=" font-size: 1.6rem; 
@@ -43,6 +43,15 @@
       </ul>
     </li>
   </ul>
+  <div class="nav-buttons">
+    <button class="darkbtn" onclick="toggleDark()">🌙</button>
+    <button class="lang " onclick="setLang('en', this)">EN</button>
+    <button class="lang" onclick="setLang('ar', this)">AR</button>
+    <button class="lang selected" onclick="setLang('fr', this)">FR</button>
+    <a href="support.html">
+    <button id="supportBtn"></button>
+    </a>
+</div>
   </nav>
 </div>
   <div class="hero" id="hero">

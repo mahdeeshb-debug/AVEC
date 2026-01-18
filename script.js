@@ -124,10 +124,12 @@ hip-hop dance. From its origins, hip-hop has always promoted self-expression, se
 By encouraging participants to step out of their comfort zones, express themselves freely through movement, and value their individuality, we support personal growth and the development of self-confidence. Since the launch of our project in 2022, we have been committed to developing and strengthening this initiative, with the goal of ensuring equal and inclusive access to hip-hop dance for all.`,
 orgtyp:"Organization type : Non-Governemental Organization",
 news:"We do not use Meta platforms .[Learn More]",
+herotitlec:"Contact",
 },
 ar:{nav:["الرئيسية","من نحن","المشاريع","شركاؤنا","تواصل معنا","قصتنا"],
   support:"تبرع الآن",
   herotitlea:"من نحن",
+  herotitlec:"تواصل معنا",
   heroT:"أيدٍ متعاونة، عالم أفضل",
   heroD:"نربط المتطوعين بمشاريع تصنع فرقًا حقيقيًا.",
   cards:[["التربية الشعبية والتعليم","التربية الشعبية هي نهج يهدف إلى جعل التعلم متاحًا للجميع، خارج الأطر الرسمية للتعليم التقليدي. وهو يركز على المشاركة الفعّالة، وتمكين الأفراد، والتعاون، والتفكير النقدي. وغالبًا ما يعتمد على أساليب تشاركية، وورش عمل، ونقاشات، ويستهدف جمهورًا واسعًا، غالبًا مرتبطًا بالقضايا الاجتماعية أو الثقافية أو السياسية"],
@@ -305,6 +307,7 @@ tctext:`يشمل هذا المجال جميع المبادرات التي تهد
 fr:{nav:["Accueil","À propos","Projets","Partenaires","Contact","Notre Histoire"],
   support:"Faire un don",
   herotitlep:"Projets",
+  herotitlec:"Contact",
   herotitlea:"À propos",
   heroT:"Avec Human Supporters",
   heroD:"Des Mains Solidaires, Un Monde Meilleur, Nous connectons les bénévoles à des projets significatifs.",
@@ -497,6 +500,8 @@ const heroTitleP = document.getElementById("heroTitleP");
 if (heroTitleP) heroTitleP.innerText = d.herotitlep;
 const heroTitleA = document.getElementById("heroTitleA");
 if (heroTitleA) heroTitleA.innerText = d.herotitlea;
+const heroTitleC = document.getElementById("heroTitleC");
+if (heroTitleC) heroTitleC.innerText = d.herotitlec;
 const fName = document.getElementById("fNameInput");
 if (fName) fName.placeholder = d.name;
 const btnDropDown = document.getElementById("btnDropDown");
