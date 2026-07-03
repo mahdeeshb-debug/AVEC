@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../css/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avec Human Supporters</title>
+<link rel="icon" type="image/png" href="../pics/Avec-HSA.webp">
+<link rel="mask-icon" href="../pics/avec.webp" color="#5bbad5">
+<script>
+  (() => {
+    const theme = localStorage.getItem('theme');
+    if (theme === "dark" || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  })
+</script>
+</head>
+<body>
+<div id="top"></div>
+<header id="site-header" >
+<nav>
+  <div class="dlogo">
+    <a href="index.html" class="logo-link">
+      <div class="logo"></div>
+    <h1 class="avec"><strong>Avec Human <span>Supporters</span></strong></h1>
+    </a>
+  </div>
+    <ul>
+    <li><a href="index.html" style=" font-size: 1.6rem; 
+  font-weight: bold;"class="nav-link" id="navHome"  data-action="home">Accueil</a></li>
+    <li><a href="projects.html" style=" font-size: 1.6rem; 
+  font-weight: bold;" class="nav-link" id="navProjects" data-action="projects">Projets</a></li>
+    <li><a href="contact.html" style=" font-size: 1.6rem; 
+  font-weight: bold;"class="nav-link" id="navContact" data-action="contact">Contact</a></li>
+    <li class="dropdown" >
+       <button
+        class="dropdown-toggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+         onclick="toggleDropdown(this)"
+        style="box-shadow: 0 0 0 0; padding: 0%;"
+      > <a><span id="btnDropDown"style="font-size: 1.6rem ;font-weight: bold;">Info▾</span></a>
+      </button>
+    <ul class="dropdown-menu">
+        <li><a href="about.html#aboutSection" style=" font-size: 1.1rem; 
+  font-weight: bold;"class="nav-link" id="navAbout"data-action="about">À propos</a></li>
+        <li><a href="about.html#ourpartners"style=" font-size: 1.1rem; 
+  font-weight: bold;"class="nav-link" id="navOurPartners" data-action="partners">Partenaires</a></li>
+        <li><a href="about.html#ourStory" style=" font-size: 1.1rem; 
+  font-weight: bold;"class="nav-link" id="navOurStory"data-action="aourstory">Notre Histoire</a></li>
+      </ul>
+    </li>
+  </ul>
+  <div class="nav-buttons">
+    <button class="darkbtn" id="toggle">🌙</button>
+    <a href="support.html">
+    <button id="supportBtn">Faire un don</button>
+    </a>
+  </div>
+  
+</nav>
+<div class="hero" id="hero">
+  <h1 id="heroTitl">À propos</h1>
+</div>
+<div><h1 id="heroTitleA"style="text-align:center"></div>
+</header>
+<main>
+  <section class=about-card id="aboutSection">
+    <div class="card meta" id="about"  onclick="this.classList.toggle('open')">
+        <h3 id="aboutusTitle" style="margin:25px;">À propos de nous:</h3><hr>
+        <p style="text-align:left; margin: 20px;" id="aboutusText">
+          Avec Human Supporters est une association à but non lucratif, humanitaire et solidaire, engagée dans la défense des droits humains, la promotion du droit international et la lutte contre toutes les formes de discrimination. Nous croyons en l’égalité entre les peuples et les individus, et nous œuvrons pour promouvoir la tolérance, le respect mutuel et la justice sociale afin de construire une société plus inclusive et solidaire.<br><br>
+Notre association est activement impliquée dans l’aide humanitaire, le soutien au développement et la promotion du bénévolat. Nous concevons et mettons en œuvre des projets qui autonomisent les individus et les communautés à travers des initiatives psycho-éducatives, environnementales, artistiques, culturelles et médiatiques, sans restriction géographique.<br><br>
+Une partie essentielle de notre mission consiste à sensibiliser et à amplifier les voix souvent marginalisées. Dans ce contexte, Avec Human Supporters s’engage profondément à partager des actualités, des histoires et des expressions culturelles du monde entier, contribuant à une meilleure compréhension de leurs réalités, de leur patrimoine et de leur résilience.<br><br>
+Par l’action collective, les partenariats et l’engagement civique, nous visons à soutenir la dignité humaine, encourager la citoyenneté active et favoriser une solidarité significative au-delà des frontières.<br><br>
+        </p>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id="ourStory" onclick="this.classList.toggle('open')" class="card meta" >
+      <h3  style="margin:25px;" id="ourStoryTittle">Notre Histoire:</h3><hr>
+      <p  style="margin:25px;" id="ourStoryText">
+        AVEC Human Supporters a été fondée en février 2013. Dès le début, l’association avait pour objectif de soutenir l’éducation, la culture et les valeurs humaines à travers la coopération internationale.<br><br>
+Sa première grande action a été la subvention ARASICOD, financée par le Conseil régional des Pays de la Loire. Cette subvention a soutenu un projet éducatif de trois ans mis en œuvre en Palestine, en coopération avec l’Association Human Supporters. Le projet visait à soutenir les activités éducatives et à construire une coopération forte et durable entre partenaires locaux et internationaux.<br><br>
+Dans le cadre de son engagement pour les échanges culturels et la sensibilisation, AVEC Human Supporters a organisé un Festival pour la Palestine à Nantes, en France. Le festival avait pour objectif de sensibiliser le public à la situation en Palestine et de promouvoir la solidarité culturelle à travers l’art, le dialogue et la participation communautaire.<br><br>
+L’association a également développé plusieurs projets d’échanges pour la jeunesse entre la Palestine et la France. Ces projets ont créé des espaces pour permettre aux jeunes de se rencontrer, de partager leurs expériences et de mieux comprendre les cultures et réalités de chacun.<br><br>
+Au fil des années, AVEC Human Supporters a réalisé de nombreuses autres initiatives, notamment le Projet Amal, différents projets de danse et le Projet Festiclown. À travers Festiclown, des clowns venus de différents pays ont été invités en Palestine pour travailler dans les écoles et animer des ateliers artistiques et éducatifs avec les enfants et les jeunes. Ces projets ont utilisé l’art, le mouvement et le jeu comme outils d’expression, d’apprentissage et de soutien émotionnel.<br><br>
+Tout au long de son parcours, AVEC Human Supporters a coopéré avec de nombreuses institutions et construit des partenariats solides, notamment avec CEMEA et l’Association Human Supporters. Ces partenariats ont permis d’assurer une coopération durable et la réussite des projets communs.<br><br>
+Depuis 2023, le travail de l’association s’est développé et a eu un impact plus fort au niveau local en France. AVEC Human Supporters a décidé de se concentrer davantage sur l’éducation du public.<br><br>
+Durant cette phase, l’association a mené des recherches sur la manière de combiner éducation du public et art. L’objectif était de créer de nouvelles méthodes d’apprentissage et de développer une approche innovante liée à la guérison psychologique, basée sur la compréhension du mouvement du corps et de l’expression physique.<br><br>
+L’association considère que le corps porte des histoires, des émotions et des souvenirs, et que le mouvement peut être un outil puissant d’expression et de guérison.<br><br>
+Une étape importante de ce processus a été la mise en œuvre d’un projet en partenariat avec CEMEA et la Municipalité de Rezé, avec l’accueil de Neaji Islam. Ce projet a renforcé le lien entre la pratique artistique, l’éducation non formelle et le travail communautaire, et a contribué à construire des relations solides avec les acteurs locaux.<br><br>
+Aujourd’hui, AVEC Human Supporters vise à développer davantage son travail aux niveaux local et international. L’association cherche à bâtir des partenariats de confiance qui partagent ses valeurs, œuvrent pour la justice sociale et soutiennent les nouvelles idées et les projets émergents. AVEC Human Supporters considère son travail comme un processus vivant et évolutif, qui grandit avec les personnes, les communautés et les expériences partagées.<br><br>
+</p>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id="meta" onclick="this.classList.toggle('open')" class="card meta" >
+      <h3  style="margin:25px;" id="newsLetterTittle">Déclaration sur notre responsabilité numérique et notre engagement environnemental</h3><hr>
+      <p  style="margin:25px;" id="newsLetterText">
+        Pourquoi nous n’utilisons pas les plateformes Meta<br>
+Nous n’utilisons pas les plateformes Meta. Nos informations officielles sont publiées exclusivement sur notre site web, conformément à notre engagement en matière de responsabilité numérique et de respect de l’environnement.<br><br>
+Cette déclaration reflète une position consciente et éthique qui guide nos pratiques de communication et notre relation avec le monde numérique.<br><br>
+Pourquoi nous ne repartageons pas le contenu sur plusieurs plateformes<br>
+Dans le paysage numérique actuel, l’information est souvent dupliquée et redistribuée sur de nombreuses plateformes. Bien que cette pratique augmente la visibilité, elle accroît également considérablement la consommation des ressources numériques. Chaque republication, partage ou duplication nécessite :<br><br>
+Un espace de stockage supplémentaire sur les serveurs<br>
+Une augmentation du transfert de données<br>
+Des systèmes de traitement et de sauvegarde continus<br>
+Cette répétition multiplie le coût environnemental d’une seule information.<br><br>
+Nous avons choisi une voie différente : publier une seule fois, de manière responsable, sur une plateforme que nous contrôlons et entretenons avec intention.<br><br>
+Le coût environnemental de l’énergie numérique<br>
+Les services numériques ne sont pas immatériels. Derrière chaque site web, plateforme ou réseau social se trouve une infrastructure massive comprenant :<br><br>
+Des centres de données<br>
+Des serveurs haute capacité<br>
+Une consommation continue d’électricité<br>
+Ces infrastructures fonctionnent 24h/24 et nécessitent d’énormes quantités d’énergie pour fonctionner de manière fiable.<br><br>
+Un aspect crucial souvent négligé est le refroidissement. Pour éviter la surchauffe, les centres de données dépendent fortement de systèmes de refroidissement, dont beaucoup sont à base d’eau.<br><br>
+De grandes quantités d’eau sont utilisées pour refroidir les serveurs, et une partie importante s’évapore, contribuant à :<br><br>
+Le gaspillage d’eau<br>
+Une pression accrue sur les ressources locales en eau<br>
+Un déséquilibre écologique à long terme<br>
+Sobriété numérique comme choix éthique<br><br>
+Notre décision s’aligne sur le principe de sobriété numérique — une réduction consciente de la consommation numérique inutile. Pour nous, cela signifie :<br><br>
+Limiter la duplication des contenus<br>
+Réduire la dépendance aux plateformes numériques extractives<br>
+Prioriser la qualité, la profondeur et l’intention plutôt que la visibilité constante<br><br>
+Nous croyons qu’une communication responsable ne consiste pas à être partout, mais à être cohérent, accessible et respectueux.<br><br>
+Notre responsabilité envers l’environnement<br>
+Respecter l’environnement signifie aussi questionner les systèmes invisibles qui consomment les ressources naturelles en silence. L’électricité, les serveurs et l’eau ne sont pas des concepts abstraits ; ce sont des ressources limitées avec de réelles conséquences écologiques.<br><br>
+En centralisant notre communication sur notre site officiel, nous visons à :<br><br>
+Réduire notre empreinte numérique<br>
+Limiter la consommation d’énergie inutile<br>
+Agir conformément à nos valeurs environnementales<br>
+Ce choix peut réduire notre présence sur les plateformes grand public, mais il renforce l’intégrité de nos actions.<br><br>
+Une position consciente et transparente<br>
+Nous comprenons que cette décision peut présenter des défis, y compris une portée ou une visibilité réduite. Cependant, nous croyons que la responsabilité écologique exige de la cohérence, même lorsqu’elle demande de la retenue.<br><br>
+Notre site web reste la seule source officielle de nos nouvelles, activités et positions. Nous invitons lecteurs, partenaires et soutiens à interagir directement avec nous via cet espace.<br><br>
+Ne pas multiplier l’information est, pour nous, une forme de respect — envers notre public, nos valeurs et notre environnement partagé.<br><br>
+Publier moins, mais avec du sens. Communiquer de manière responsable et consciente.<br><br>
+      </p>
+    </div>
+    </section>
+     <br><hr><br><section id="ourpartners">
+  <h3>EU Partners : </h3><br>
+    <section class="cards-grid">
+      <div class="card"><figure>
+      <a href="https://www.oktoberkoret.dk/" ><img style="width:100%;height: 200px;;" src="../pics/Oktoberkoret.webp"alt="Oktoberkoret"/></a>
+      <figcaption style="text-align: center;margin:10px;">
+        Our Partner from Denmark : Oktoberkoret
+      </figcaption>
+    </figure></div>
+      <div class="card"><figure>
+      <a href=" https://coruna2018.redeacampa.org/es/"><img src="../pics/paaallll.webp"alt="pallasos"/></a> 
+       <figcaption style="text-align: center;margin:10px;">
+        Our Partner from Spain: Pallasos en Rebeldia
+       </figcaption>
+    </figure></div>
+      <div class="card"><figure>
+            <a href="https://www.assopacepalestina.org/"><img src="../pics/removal.ai_08d3a9e0-9f69-4a15-bbc7-1af33ca09ca2-assopace_palestina-logo-colori-rgb.webp" alt="Assopace Palestina"/></a> 
+        <figcaption style="text-align: center;margin:10px;">
+          Our Partner from Italy : asso pace 
+        </figcaption>
+        </figure>  </div>
+        </section><br>
+        <hr><h3>International Partners : </h2><br>
+        <section class="cards-grid"><figure>
+          <div class="card">
+            <a href="https://humansupporters.org/"> <img src="../pics/images.webp" alt="Human Supporters Association"/></a>
+        <figcaption style="text-align: center;margin:10px;">
+          Our partner from Palestine : Human supporters association
+        </figcaption>
+          </figure>  </div>
+        <div class="card"><figure>
+        <a href="https://www.nablus.org/index.php/ar/"><img style="width:90%;height: 200px;"src="../pics/images11.webp"alt="nablus"/></a>
+        <figcaption style="text-align: center;margin:10px;">
+          Our partner from Palestine
+        </figcaption>
+      </figure></div>
+      <div class="card"><figure>
+      <a href=" https://www.linkedin.com/company/rise-for-good/?originalSubdomain=jo"><img src="../pics/rise_for_good_logo.webp"alt="rise"/></a>
+       <figcaption style="text-align: center;margin:10px;">
+          Our partner from Jordan
+        </figcaption>
+    </figure></div>
+      </section>
+     <hr><h3>Our local Partners From France : </h3><br>
+    <section class="cards-grid">
+      <div class="card">
+            <a href=" https://cemea-pdll.org/"><img src="../pics/pobrane.webp" alt="cemea"/></a>
+        </div>
+        <div class="card">
+            <a href="https://www.france-palestine.org/"><img src="../pics/20.webp" alt="al-tadamun"/></a>
+        </div>
+      <div class="card">
+       <a href="https://www.reze.fr/"><img src="../pics/logo-reze.webp"alt="reze" style="width:100%;height: 100px;"/>
+      </a></div>
+      <div class="card">
+      <a href=" https://metropole.nantes.fr/"><img src="../pics/Nantes_logo.svg.webp"alt="Nantes"/></a>
+      </div>
+    </section>
+    </section>
+</main>
+<footer id="footer">
+<div class="footer-grid">
+  <div class="fnav">
+    <nav>
+      <ul>
+        <li><a href="index.html" style=" font-size: 1.3rem; 
+  font-weight: bold;"class="nav-link" id="fHome"data-action="home">Accueil</a></li>
+        <li><a href="projects.html" style=" font-size: 1.3rem; 
+  font-weight: bold;"class="nav-link" id="fProjects"data-action="projects">Projets</a></li>
+        <li><a href="contact.html" style=" font-size: 1.3rem; 
+  font-weight: bold;"class="nav-link" id="fContact"data-action="contact">Contact</a></li>
+        <li class="dropdown" >
+       <button
+        class="dropdown-toggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+        onclick="toggleDropdown(this)"
+        style="box-shadow: 0 0 0 0; padding: 0%;"
+      ><a><span id="fbtnDropDown"  style=" font-size: 1.3rem; 
+  font-weight: bold;">Info▾</span></a>
+      </button>
+    <ul class="dropdown-menu">
+        <li><a href="about.html#aboutSection" style=" font-size: 1.0rem; 
+  font-weight: bold;"class="nav-link" id="fAbout"data-action="about">À propos</a></li>
+        <li><a href="about.html#ourpartners"style=" font-size: 1.0rem; 
+  font-weight: bold;"class="nav-link" id="fPartners" data-action="partners">Nos partenaires</a></li>
+        <li><a href="about.html#ourStory" style=" font-size: 1.0rem; 
+  font-weight: bold;"class="nav-link" id="fOurStory"data-action="aourstory">Notre Histoire</a></li>
+      </ul>
+    </li>
+      </ul>
+    </nav>
+    <div class="dflogo">
+    <a href="index.html" class="logo-link" >
+      <div class="flogo"></div>
+    </a>
+  </div>
+  <p style="font-size: small;text-align: center;margin:10px">Avec Human Supporters PDLL<br>
+Siège social: CEMEA PDLL 102 Rue Saint-Jacques 44200 Nantes<br>
+Siret: 791 991 268 00024 <a href="https://avechumansupporters.org/"> https://avechumansupporters.org/</p></a>
+  </div>
+</div>
+<hr>
+<div class="Copyright">
+<div> Copyright © 2026 Avec Human Supporters </div> <div>Powerwd by Avec Human Supporters</div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="../jscript/script.js" defer></script>
+</body>
+</html>

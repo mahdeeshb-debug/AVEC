@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Donate Now</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .support-card {
+      background: #1c1c1c;
+      padding: 30px;
+      border-radius: 12px;
+      width: 340px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    }
+
+    .support-card h2 {
+      margin-bottom: 10px;
+    }
+
+    .support-card p {
+      font-size: 14px;
+      opacity: 0.85;
+      margin-bottom: 20px;
+    }
+
+    .donate-btn {
+      display: block;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #000;
+    }
+
+    .paypal {
+      background: #ffc439;
+    }
+
+    .crypto {
+      background: #00e676;
+    }
+
+    .bank {
+      background: #ff813f;
+    }
+
+    .donate-btn:hover {
+      opacity: 0.9;
+    }
+    .flogo {
+  box-shadow:0 0 40px 0 rgb(0, 0, 0);
+  width:60px;
+  height:60px;
+  background-image: url('../pics/Avec-HSA.webp');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid rgb(3, 40, 61);
+  border-radius: 30%;
+  transition: transform 0.3s ease;
+}
+.favec {
+  margin:0;
+  color:rgb(27, 112, 161); 
+  line-height: 1.2;
+  font-size: 20px;
+  font-weight: 600;
+}
+.dflogo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  text-decoration: none;
+  margin-top: 45px;
+}
+.favec span {
+  display: block; 
+}
+@keyframes moveLeft {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+.logo-link {
+  display: flex;
+  align-items: center;      
+  gap: 12px;                
+  text-decoration: none;
+  transition: transform 0.3s ease; 
+}
+.logo-link:hover {
+  transform: scale(1.05);
+}
+.logo-link:hover .flogo {
+  transform: rotate(10deg); 
+}
+  </style>
+  <link rel="icon" type="image/png" href="../pics/Avec-HSA.webp">
+<link rel="mask-icon" href="../pics/avec.webp" color="#5bbad5">
+</head>
+<body>
+
+  <div class="support-card">
+    <div class="dflogo">
+    <a href="index.html" class="logo-link">
+      <div class="flogo"></div>
+    <h1 class="favec"><strong>Avec Human <span>Supporters</span></strong></h1>
+    </a>
+  </div>
+    <h2>Donate Now to Support Our Association 🤝✨</h2>
+    <p>Your support helps us continue helping and improving.</p>
+    <a class="donate-btn paypal" href="https://www.paypal.me/NeajiIslam" target="_blank">
+      Donate via PayPal
+    </a>
+
+    <a href="#" class="donate-btn bank" onclick="showBankInfo()">
+        Donate via Bank Transfer
+    </a>
+
+    <a class="donate-btn crypto" href="#" onclick="copyCrypto()">
+      Donate via Crypto
+    </a>
+
+    <small id="cryptoMsg" style="display:none; color:#00e676;">
+      Wallet address copied!
+    </small>
+  </div>
+
+  <script>
+    function copyCrypto() {
+      const wallet = "bc1p83fmutuptp2yg3zs5r70rqatsva9lgqwl7mrvcv9mwa6fwe6wyrshty5mh";
+      navigator.clipboard.writeText(wallet);
+
+      document.getElementById("cryptoMsg").style.display = "block";
+    }
+    function showBankInfo() {
+    alert(
+      "Bank Name: Centre Financier de Nantes - La Banque Postale\n" +
+      "Account Name: AVEC HUMAN SUPPORTERS NABLUS\n" +
+      "Account Number: 1265847E032\n" +
+      "IBAN: FR9720041010111265847E03271\n" +
+      "SWIFT/BIC: PSSTFRPPNTE"
+    );
+  }
+  </script>
+
+</body>
+</html>

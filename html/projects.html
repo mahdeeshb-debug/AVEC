@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../css/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avec Human Supporters</title>
+<link rel="icon" type="image/png" href="../pics/Avec-HSA.webp">
+<link rel="mask-icon" href="../pics/avec.webp" color="#5bbad5">
+<script>
+  (() => {
+    const theme = localStorage.getItem('theme');
+    if (theme === "dark" || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  })
+</script>
+</head>
+<body>
+<div id="top"></div>
+<header id="site-header">
+<nav>
+  <div class="dlogo">
+    <a href="index.html" class="logo-link">
+      <div class="logo"></div>
+    <h1 class="avec"><strong>Avec Human <span>Supporters</span></strong></h1>
+    </a>
+  </div>
+    <ul>
+    <li><a href="index.html" style=" font-size: 1.6rem; 
+  font-weight: bold;"class="nav-link" id="navHome"  data-action="home">Accueil</a></li>
+    <li><a href="projects.html" style=" font-size: 1.6rem; 
+  font-weight: bold;" class="nav-link" id="navProjects" data-action="projects">Projets</a></li>
+    <li><a href="contact.html" style=" font-size: 1.6rem; 
+  font-weight: bold;"class="nav-link" id="navContact" data-action="contact">Contact</a></li>
+    <li class="dropdown" >
+       <button
+        class="dropdown-toggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+         onclick="toggleDropdown(this)"
+        style="box-shadow: 0 0 0 0; padding: 0%;"
+      > <a><span id="btnDropDown"style="font-size: 1.6rem ;font-weight: bold;">Info▾</span></a>
+      </button>
+    <ul class="dropdown-menu">
+        <li><a href="about.html#aboutSection" style=" font-size: 1.1rem; 
+  font-weight: bold;"class="nav-link" id="navAbout"data-action="about">À propos</a></li>
+        <li><a href="about.html#ourpartners"style=" font-size: 1.1rem; 
+  font-weight: bold;"class="nav-link" id="navOurPartners" data-action="partners">Partenaires</a></li>
+        <li><a href="about.html#ourStory" style=" font-size: 1.1rem; 
+  font-weight: bold;"class="nav-link" id="navOurStory"data-action="aourstory">Notre Histoire</a></li>
+      </ul>
+    </li>
+  </ul>
+  <div class="nav-buttons">
+    <button class="darkbtn" id="toggle">🌙</button>
+    <a href="support.html">
+    <button id="supportBtn">Faire un don</button>
+    </a>
+  </div> 
+</nav>
+<div class="hero" id="hero">
+  <h1 id="heroTitl">Projets</h1>
+</div>
+<div><h1 id="heroTitleP"style="text-align:center"></h1></div>
+</header>
+<main>
+<section id="humanRights">
+  <figure class="card " onclick="this.classList.toggle('open')" style="display: flex;gap: 16px;align-items: center;">
+    <div>
+      <img src="../pics/human 1.webp"alt="human"style="height:20vh;border:1px solid #4caf91;margin:10px;"/>
+      <img src="../pics/human 7.webp"alt="human"style="height:20vh;border:1px solid #4caf91;margin:10px;" />
+     <img src="../pics/human 8.webp"alt="human"style="height:20vh;border:1px solid #4caf91;margin:10px;"/>
+     
+     </div>
+     <figcaption style="display: block;">
+       <h3 style="margin:10px;text-align: left;"id="hrsjTitle">Droits de l’Homme et Justice Sociale<br></h3>
+<p style="margin:10px;text-align: left;" id="hrsjText">
+  Cette section inclut toutes les actions visant à promouvoir l’égalité, l’inclusion, la dignité et la protection des groupes vulnérables, tout en sensibilisant aux questions de droits de l’homme et de justice sociale.
+<br><br><br>
+Sensibilisation, éducation et information en France
+Conférences publiques, expositions et rassemblements communautaires abordant les droits de l’homme, la justice sociale, l’égalité des genres, le bien-être psychosocial et la lutte contre les discriminations.
+<br><br><br>
+Projet éducatif pour les enfants et les femmes
+Soutien éducatif pour les enfants âgés de 7 à 9 ans, enfants à risque, enfants décrocheurs scolaires et programmes d’alphabétisation pour les femmes, afin d’assurer un accès égal à l’éducation et aux opportunités d’apprentissage.
+<br><br><br>
+Activités du Club des Femmes
+Activités éducatives, de sensibilisation et psychosociales axées sur le soin de soi, la parentalité positive, le bien-être familial et l’autonomisation des femmes.
+<br><br><br>
+Projet Global Goals World Cup pour les femmes et les filles
+Sensibilisation aux Objectifs de Développement Durable (ODD), promotion de l’égalité des genres, de la participation citoyenne et de l’action communautaire à travers l’éducation et le sport.
+<br><br><br>
+Ateliers pour la jeunesse sur le soutien psychologique et les compétences professionnelles
+Ateliers de renforcement des capacités visant à soutenir le bien-être mental, la résilience, l’employabilité et l’inclusion sociale des jeunes.
+</p>
+     </figcaption>
+  </figure>
+</section>
+<br><br>
+<section id="popularEducation">
+  <figure class="card" style="display: flex;gap: 16px;align-items: center;" onclick="this.classList.toggle('open')">
+   <div>
+    <img src="../pics/new.webp"alt="human"style="height:20vh;width:30vw;border:1px solid #4caf91;margin:10px;"/>
+     <img src="../pics/WhatsApp Image 2026-01-13 at 15.37.03.webp"alt="human"style="height:20vh;width:30vw;border:1px solid #4caf91;margin:10px;"/>
+     <img src="../pics/non-formal 7.webp"alt="human"style="height:20vh;width:30vw;border:1px solid #4caf91;margin:10px;"/>
+   </div>
+   <figcaption style="display:block;">
+    <h3 id="question" style="margin:10px;text-align: left;" >
+     L'éducation populaire au cœur de notre association
+    </h3><br>
+    <p id="questionEducation"style="margin:10px;text-align: left;">
+      L'éducation populaire représente une approche d'apprentissage Ouvert à toutes et à tous, en dehors des cadres formels et parfois contraignants de l’éducation traditionnelle. Elle favorise la participation active, l’émancipation personnelle et le développement d’un esprit critique. Dans notre association, nous faisons le lien entre ces principes et la danse hip-hop. En effet, le hip-hop, dès ses origines, a toujours mis l’accent sur l’expression de soi,
+la confiance en soi et l’accessibilité, en dehors des normes strictes de la danse classique. Cette dimension inclusive permet de pallier les éventuelles carences de l’éducation traditionnelle, qui peut parfois freiner la confiance en soi. En mettant l’accent sur la sortie de la zone de confort, l’expression libre et la valorisation de chaque individu, nous permettons à chacun de développer sa
+confiance en soi et d’épanouir son potentiel personnel. Depuis le lancement de notre projet en 2022, nous œuvrons à développer et enrichir cette initiative, en garantissant un accès égalitaire à la danse hip-hop pour tous. Ainsi, notre association incarne pleinement les valeurs de l’éducation populaire à travers l’art et la culture.<br>
+    </p>
+   </figcaption>
+
+  </figure>
+</section>
+<br><br>
+<section id="nonFormal">
+  <figure class="card" style="display: flex;gap: 16px;align-items: center;" onclick="this.classList.toggle('open')">
+    <div>
+      <img src="../pics/non-formal 1.webp"alt="Non Formal Education"style="height:20vh;border:1px solid #4caf91;margin:10px;"/>
+    <img src="../pics/non-formal 5.webp"alt="Non Formal Education"style="height:20vh;border:1px solid #4caf91;margin:10px;"/>
+    
+    <img src="../pics/non-formal 8.webp"alt="Non Formal Education"style="height:20vh;border:1px solid #4caf91;margin:10px;"/>
+    </div>
+     <figcaption style="display: block;">
+      <h3 style="margin:10px;text-align: left;" id ="nfeTittle">L'éducation populaire & Éducation Non-Formelle</h3><br>
+      <p style="margin:10px;text-align: left;"id="nfeText">
+        Cette section couvre les approches éducatives basées sur l’apprentissage participatif, expérientiel et créatif, soutenant le développement personnel, les compétences sociales et l’apprentissage tout au long de la vie en dehors des systèmes d’éducation formelle.
+<br><br>
+Activités et projets dans ce domaine :
+<br><br>
+Programmes d’éducation non formelle en France
+Activités éducatives et culturelles utilisant des méthodologies non formelles, incluant des discussions, des ateliers créatifs et des espaces d’apprentissage communautaires.
+<br><br>
+Projet « Hands in Clay »
+Apprentissage artistique à travers des ateliers de modelage et de céramique, encourageant la créativité, l’expression de soi, les compétences pratiques et l’apprentissage par la pratique.
+<br><br>
+Camps d’été et d’hiver pour enfants
+Programmes éducatifs, récréatifs et sociaux structurés offrant des environnements d’apprentissage sûrs pour les enfants.
+<br><br>
+Activités estivales pour enfants et jeunes
+Sessions éducatives, créatives et récréatives soutenant le développement social et le bien-être pendant les vacances scolaires.
+<br><br>
+Ateliers pour jeunes sur le soutien psychologique et les compétences professionnelles<br>
+(Composante éducative) Développement des compétences à travers des ateliers participatifs sur les compétences de vie, la planification de carrière et le développement personnel.<br>
+      </p><br>
+      
+      </figcaption>
+
+  </figure>
+</section>
+
+<br><br>
+<section id="transCulture">
+  <figure class="card" style="display: flex;gap: 16px;align-items: center;"onclick="this.classList.toggle('open')">
+    <div>
+    <img src="../pics/International 2.webp"alt="Non Formal Education"style="height:20vh;border:1px solid #4caf91;margin:10px;"/>
+    <img src="../pics/International 6.webp"alt="Non Formal Education"style="height:20vh;border:1px solid #4caf91;margin:10px;"/>
+    <img src="../pics/International 7.webp"alt="international"style="height:20vh;border:1px solid #4caf91;margin:10px;"/>
+    </div>
+     <figcaption style="display: block;">
+      <h3 style="margin:10px;text-align: left;"id="tcTittle">Projets Transculturels et Internationaux
+      </h3><br>
+      <p style="margin:10px;text-align: left;"id="tcText">
+        Ce domaine comprend toutes les initiatives visant à promouvoir le dialogue interculturel, la coopération transfrontalière, la solidarité internationale et les échanges entre la France, l’Europe et les partenaires de la région méditerranéenne.
+<br><br>
+Activités et projets dans ce domaine :
+<br><br>
+Partenariats internationaux et échanges
+Facilitation de la coopération entre les organisations françaises, les volontaires, les collectivités locales et les partenaires méditerranéens à travers des séminaires communs, des sessions de formation et des projets collaboratifs.
+<br><br>
+Projet d’échange de jeunes (Corps européen de solidarité)
+Accueil de volontaires français à Naplouse dans le cadre de programmes structurés d’apprentissage interculturel, favorisant la compréhension mutuelle, la solidarité et l’engagement citoyen.
+<br><br>
+Activités de solidarité et de collecte de fonds
+Mobilisation de la société civile française pour soutenir des programmes éducatifs et psychosociaux et renforcer les initiatives de solidarité internationale.
+<br><br>
+Activités de sensibilisation interculturelle liées à Naplouse
+Initiatives d’échange culturel, de narration et de partage d’informations visant à connecter le public français avec les communautés palestiniennes.<br>
+      </p>
+      </figcaption>
+      </figure>
+</section>
+</main>
+<footer id="footer">
+<div class="footer-grid">
+  <div class="fnav">
+    <nav>
+      <ul>
+        <li><a href="index.html" style=" font-size: 1.3rem; 
+  font-weight: bold;"class="nav-link" id="fHome"data-action="home">Accueil</a></li>
+        <li><a href="projects.html" style=" font-size: 1.3rem; 
+  font-weight: bold;"class="nav-link" id="fProjects"data-action="projects">Projets</a></li>
+        <li><a href="contact.html" style=" font-size: 1.3rem; 
+  font-weight: bold;"class="nav-link" id="fContact"data-action="contact">Contact</a></li>
+        <li class="dropdown" >
+       <button
+        class="dropdown-toggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+        onclick="toggleDropdown(this)"
+        style="box-shadow: 0 0 0 0; padding: 0%;"
+      ><a><span id="fbtnDropDown"  style=" font-size: 1.3rem; 
+  font-weight: bold;">Info▾</span></a>
+      </button>
+    <ul class="dropdown-menu">
+        <li><a href="about.html#aboutSection" style=" font-size: 1.0rem; 
+  font-weight: bold;"class="nav-link" id="fAbout"data-action="about">À propos</a></li>
+        <li><a href="about.html#ourpartners"style=" font-size: 1.0rem; 
+  font-weight: bold;"class="nav-link" id="fPartners" data-action="partners">Nos partenaires</a></li>
+        <li><a href="about.html#ourStory" style=" font-size: 1.0rem; 
+  font-weight: bold;"class="nav-link" id="fOurStory"data-action="aourstory">Notre Histoire</a></li>
+      </ul>
+    </li>
+      </ul>
+    </nav>
+    <div class="dflogo">
+    <a href="index.html" class="logo-link" >
+      <div class="flogo"></div>
+    </a>
+  </div>
+  <p style="font-size: small;text-align: center;margin:10px">Avec Human Supporters PDLL<br>
+Siège social: CEMEA PDLL 102 Rue Saint-Jacques 44200 Nantes<br>
+Siret: 791 991 268 00024 <a href="https://avechumansupporters.org/"> https://avechumansupporters.org/</p></a>
+  </div>
+</div>
+<hr>
+<div class="Copyright">
+<div> Copyright © 2026 Avec Human Supporters </div> <div>Powerwd by Avec Human Supporters</div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="../jscript/script.js" defer></script>
+</body>
+</html>
