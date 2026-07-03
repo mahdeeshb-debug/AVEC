@@ -1,7 +1,18 @@
 let currentLang = "fr";
 // DARK MODE
-function toggleDark(){document.body.classList.toggle("dark")}
 
+const btn = document.getElementById("toggle");
+if(localStorage.getItem("theme")==="dark"){
+  document.body.classList.add("dark");
+}
+btn.onclick =()=>{
+  document.body.classList.toggle("dark");
+  if(document.body.classList.contains("dark")){
+    localStorage.setItem("theme","dark");
+  }else{
+    localStorage.setItem("theme","light");
+  }
+}
 //translation
 const t={
 en:{nav:["Home","About Us","Projects","Our Partners","Contact","Our Story"],

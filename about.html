@@ -7,6 +7,16 @@
 <title>Avec Human Supporters</title>
 <link rel="icon" type="image/png" href="Avec-HSA.jpg">
 <link rel="mask-icon" href="avec.png" color="#5bbad5">
+<script>
+  (() => {
+    const theme = localStorage.getItem('theme');
+    if (theme === "dark" || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  })
+</script>
 </head>
 <body>
 <div id="top"></div>
@@ -45,7 +55,7 @@
     </li>
   </ul>
   <div class="nav-buttons">
-    <button class="darkbtn" onclick="toggleDark()">🌙</button>
+    <button class="darkbtn" id="toggle">🌙</button>
     <button class="lang " onclick="setLang('en', this)">EN</button>
     <button class="lang" onclick="setLang('ar', this)">AR</button>
     <button class="lang selected" onclick="setLang('fr', this)">FR</button>
